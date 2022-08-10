@@ -1,0 +1,62 @@
+<template>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="app">
+      <header class="mb-auto">
+      </header>
+      <main class="px-3" >
+          <h1 :class="{red: isColourChange}" @click="isColourChange =! isColourChange">
+              Hendrik Braasch
+          </h1>
+          <p class="lead">
+              I am a software developer from Christchurch, New Zealand.
+          </p>
+          <p class="lead">
+              <a href="https://www.linkedin.com/in/hendrikbraasch/" class="btn btn-lg btn-secondary fw-bold border-white bg-white">
+                  Find me on LinkedIn
+              </a>
+          </p>
+      </main>
+      <footer class="mt-auto text-white-50">
+          <p>{{ currentYear }}</p>
+      </footer>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+  },
+  data () {
+    return {
+      currentYear: 2020,
+      isColourCHange: false
+    }
+  }
+}
+</script>
+
+<style>
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.red {
+  color: rgb(188, 26, 26);
+}
+</style>
