@@ -1,30 +1,56 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/about" class="nav-link">About</router-link>
+      </nav>
+    </header>
+    <router-view/>
+    <footer class="mt-auto text-white-50">
+      <p>{{ currentYear }}</p>
+    </footer>
+  </div>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      currentYear: 2020,
+      isColourCHange: false
+    }
+  },
+  mounted () {
+    this.currentYear = this.getCurrentYear()
+  },
+  methods: {
+    getCurrentYear () {
+      const currentDate = new Date()
+      return currentDate.getFullYear()
+    }
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+ .nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
 }
 
-nav {
-  padding: 30px;
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
 }
 </style>

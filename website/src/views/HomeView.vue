@@ -1,9 +1,6 @@
 <template>
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="app">
-      <header class="mb-auto">
-      </header>
       <main class="px-3" >
-          <h1 :class="{red: isColourChange}" @click="isColourChange =! isColourChange">
+          <h1>
               Hendrik Braasch
           </h1>
           <p class="lead">
@@ -15,10 +12,6 @@
               </a>
           </p>
       </main>
-      <footer class="mt-auto text-white-50">
-          <p>{{ currentYear }}</p>
-      </footer>
-  </div>
 </template>
 
 <script>
