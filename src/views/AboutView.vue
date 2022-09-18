@@ -1,5 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <article>
+      <h1>{{ $t('message.aboutMeTitle') }}</h1>
+      <p>
+        {{ $t('message.aboutParagraphOne') }}
+      </p>
+      <p>
+        {{ $t('message.aboutParagraphTwo') }}
+      </p>
+    </article>
   </div>
 </template>

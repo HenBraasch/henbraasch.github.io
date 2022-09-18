@@ -4,11 +4,11 @@
               Hendrik Braasch
           </h1>
           <p class="lead">
-              I am a software developer from Christchurch, New Zealand.
+              {{ $t('message.thatsMe') }}
           </p>
           <p class="lead">
               <a href="https://www.linkedin.com/in/hendrikbraasch/" class="btn btn-lg btn-secondary fw-bold border-white bg-white">
-                  Find me on LinkedIn
+                {{ $t('message.findMeOnLinkedin') }}
               </a>
           </p>
       </main>
@@ -24,8 +24,7 @@ export default {
   },
   data () {
     return {
-      currentYear: 2020,
-      isColourCHange: false
+      currentYear: 2020
     }
   }
 }
