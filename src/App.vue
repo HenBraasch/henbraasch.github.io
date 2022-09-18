@@ -3,21 +3,28 @@
     <header class="mb-auto">
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/about" class="nav-link">{{ $t('message.about') }}</router-link>
+        <a href="https://www.linkedin.com/in/hendrikbraasch/" class="nav-link" target="_parent">{{ $t('message.contact') }}</a>
       </nav>
     </header>
     <router-view/>
     <footer class="mt-auto text-white-50">
+      <div class="sm-12 column">
+        <div class="header-top row">
+          <SelectLocale />
+        </div>
+      </div>
       <p>{{ currentYear }}</p>
     </footer>
   </div>
 </template>
 
 <script>
+import SelectLocale from './components/SelectLocale.vue'
 export default {
   data () {
     return {
-      currentYear: 2020,
-      isColourCHange: false
+      currentYear: 2020
     }
   },
   mounted () {
@@ -28,8 +35,10 @@ export default {
       const currentDate = new Date()
       return currentDate.getFullYear()
     }
-  }
+  },
+  components: { SelectLocale }
 }
+
 </script>
 
 <style>
