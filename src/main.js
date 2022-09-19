@@ -24,9 +24,9 @@ const messages = {
   de: {
     message: {
       about: 'Über mich',
-      contact: 'Kontaktieren Sie mich',
+      contact: 'Kontakt',
       findMeOnLinkedin: 'Zu meinem Linkedin Profil',
-      thatsMe: 'Ich bin ein technologie begeisterter Software Entwickler und Vater aus Christchurch, Neuseeland.',
+      thatsMe: 'Ich bin ein Technologie begeisterter Software Entwickler und Vater aus Christchurch, Neuseeland.',
       aboutMeTitle: 'Über Hendrik Braasch',
       aboutParagraphOne: `Ich bin ein erfahrener Software Entwickler mit einem Hintergrund im Kundenservice.
       Mein Schwerpunkt liegt in der Planung, Entwicklung und Integration von REST APIs.`,
