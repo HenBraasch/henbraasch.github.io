@@ -10,7 +10,7 @@ const messages = {
       about: 'About Me',
       contact: 'Contact Me',
       findMeOnLinkedin: 'Find Me On Linkedin',
-      thatsMe: 'I am a software engineer, tech enthusiast and father from Christchurch, New Zealand.',
+      thatsMe: 'I am a software engineer, tech enthusiast and father from Burglengenfeld, Germany.',
       aboutMeTitle: 'About Hendrik Braasch',
       aboutParagraphOne: `I am a strategic thinker who can break complex data,
       issues and challenges into easily understandable parts for stakeholders and
@@ -26,7 +26,7 @@ const messages = {
       about: 'Über mich',
       contact: 'Kontakt',
       findMeOnLinkedin: 'Zu meinem Linkedin Profil',
-      thatsMe: 'Ich bin ein Technologie begeisterter Software Entwickler und Vater aus Christchurch, Neuseeland.',
+      thatsMe: 'Ich bin ein Technologie begeisterter Software Entwickler und Vater aus Burglengenfeld, Deutschland.',
       aboutMeTitle: 'Über Hendrik Braasch',
       aboutParagraphOne: `Ich bin ein erfahrener Software Entwickler mit einem Hintergrund im Kundenservice.
       Mein Schwerpunkt liegt in der Planung, Entwicklung und Integration von REST APIs.`,
