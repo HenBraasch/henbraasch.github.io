@@ -1,0 +1,12 @@
+baseURL = 'https://hendrikbraasch.com'
+languageCode = 'en-us'
+title = 'Hendrik Braasch'
+
+# This tells Hugo to look for layouts in your local folder
+# rather than a downloaded theme.
+theme = []
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

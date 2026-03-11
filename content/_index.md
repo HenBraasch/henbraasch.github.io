@@ -1,0 +1,118 @@
+---
+title:  "Home"
+description: "Systems Analyst and Portfolio"
+---
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+<section id="content-page">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Hi, I am <span class="cs-color">Hendrik</span></h1>
+            <h2>Systems Analyst and Automation Enthusiast.</h2>
+            <p>
+                I am a systems analyst with a passion for making things run smoother and smarter.<br>
+                I started as a software engineer, so I know what it is like to be deep in the code but I also know how
+                to step back and the bigger picture.<br>
+                Finding clever ways to automate the repetetive and error prone stuff and helping people get the most out
+                of their systems. That is what gets me excited.<br><br>
+                When I'm not tinkering with tech, I will be out exploring new ideas, picking up new skills, or just
+                enjoying New Zealand's outdoors
+            </p>
+            <h3>Knowledge</h3>
+            <ul>
+                <li>Agile software development environments with CFML, HTML, CSS, JavaScript, Vue.js, Vuetify, Node,
+                    Python, REST</li>
+                <li>Database experience especially with MySQL and SQL Server</li>
+                <li>Systems Design and Maintenance, Financial Transactions and Processes</li>
+                <li>GitHub, Docker, Planning Analytics, Dynamics NAV, Azure</li>
+            </ul>
+            <h3>Work Experience</h3>
+            <ul>
+                <li>
+                    Systems Analyst at <a href="https://www.bioeconomyscience.co.nz/">AgResearch Group - Bioeconomy
+                        Science Institute</a>
+                        <ul>
+                            <li>Subject matter expert in Business Intelligence tools (SSRS, Power BI)</li>
+                            <li> Subject matter expert in financial systems</li>                        
+                        </ul>
+                </li>
+                <li>Software Engineer at <a href="https://www.strakertranslations.com/" target="_parent">Straker</a>
+                    <ul>
+                        <li>Developed Rest Integrations of NetSuite and Stripe</li>
+                        <li>Developed SPA for managing financial workflows and financial reporting</li>
+                    </ul>
+                </li>
+                <li>Academic Administrator at <a href="https://www.aut.ac.nz/" target="_parent">Auckland University of
+                        Technology</a></li>
+            </ul>
+            <a href="https://www.linkedin.com/in/hendrikbraasch" class="cs-button-solid">Connect with me</a>
+        </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/img/me.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/img/me.jpg">
+                <img loading="lazy" decoding="async" src="/img/me.jpg" alt="person" width="570" height="680"
+                    aria-hidden="true">
+            </picture>
+            <!--Spidey Sense Graphic-->
+            <img class="cs-sense" loading="lazy" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fspider-sense.svg"
+                alt="spidey sense graphic" width="80" height="89" aria-hidden="true">
+        </div>
+    </div>
+    <!--Waves Graphic-->
+    <picture class="cs-background">
+        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Flarge-waves.svg" alt="waves"
+            decoding="async" aria-hidden="true" width="625" height="952">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                 Interest                     -->
+<!-- ============================================ -->
+
+<section id="what-i-offer">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Interests</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="/img/icons/lightbulb_black_24dp.svg" alt="svg icon"
+                    width="37" height="29" loading="lazy" decoding="async">
+                <h3 class="cs-h3">System Design</h3>
+                <p class="cs-item-text">
+                    Developing specifications, testing, documenting and training
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="/img/icons/groups_black_24dp.svg" alt="svg icon"
+                    width="33" height="30" loading="lazy" decoding="async">
+                <h3 class="cs-h3">User Focus</h3>
+                <p class="cs-item-text">
+                    Assistance to system users and enabling pro-active communication.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="/img/icons/code_black_24dp.svg" alt="svg icon"
+                    width="29" height="29" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Backend Development</h3>
+                <p class="cs-item-text">
+                    I like to code apps and websites from scratch.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" src="/img/icons/web_asset_black_24dp.svg"
+                    alt="svg icon" width="37" height="30" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Frontend Development</h3>
+                <p class="cs-item-text">
+                    I value simple code structures and create easy to use websites.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
